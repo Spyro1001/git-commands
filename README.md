@@ -1,6 +1,13 @@
 # GIT Commands
-
-###### Revert to specific version
+###### Pull from Repo
+```
+git pull
+```
+###### Push to Repo
+```
+git push
+```
+###### Revert to Specific Version
 Note: Using this is dangerous in a collaborative environment: you're rewriting history!
 ```
 git reset --hard <old-commit-id>
